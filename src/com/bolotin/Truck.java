@@ -1,2 +1,7 @@
-package com.bolotin;public class Truck {
+package com.bolotin;
+
+public class Truck extends Transport{
+    public Truck(String modelName, int wheelsCount) {
+        super(modelName, wheelsCount);
+    }
 }
